@@ -1,0 +1,18 @@
+<div class="cards-container">
+            <div class="card">
+                <img src="" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily upadates of the most played tracks...</p>
+            </div>
+            <div class="card">
+                <img src="" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily upadates of the most played tracks...</p>
+            </div>
+            <div class="card">
+                <img src="" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily upadates of the most played tracks...</p>
+            </div>
+    
+        </div>

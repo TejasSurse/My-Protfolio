@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins&family=Rethink+Sans:wght@500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(7, 62, 60);
+    color: white;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    height: 75px;
+    background-color: rgb(28, 115, 111);;
+}
+.left{
+    font-size: 1.4rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none; /*to remove bullets */
+    margin: 0 23px;   /*margin left right*/ 
+     
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(208, 227, 226);
+    font-size: 1.01rem;
+}
+.firstSec{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;   
+}
+
+.firstSec > div{
+    width: 35%;
+
+}
+
+.leftsec{
+    margin: 60px 0;
+    font-size: 2rem;    
+}
+.black{
+    color: rgb(33, 209, 186);
+}
+
+.rightsec img{
+    width: 50%;
+}
+
+#element{
+    color: rgb(33, 209, 186);
+}
+
+.secondsec{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr{
+    border: 0;
+    height: 1.2px;
+    background-color: rgb(33, 209, 186);
+    margin: 20px 84px;
+}
+.secondsec h1{
+    font-size: 1.7rem;
+}
+
+.secondsec .box{
+    background-color: rgb(28, 115, 111);
+    width: 80vw;
+    height: 1.2px;
+    margin: 10px  0px;   
+}
+.media{
+    display: flex;
+    justify-content: center;
+}
+.media a {
+    margin: 0 10px 0 10px ;
+}
+
+.media a img:hover{
+    height: 32px;
+    width: 32px;
+}
+
+.btn{
+    background-color: rgb(28, 115, 111);;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    height: 2rem;
+    width: fit-content;
+    margin: 0.5rem;
+    font-weight: 700;
+    color:  rgb(33, 209, 186);
+}
+.btn a{
+    text-decoration: none;
+    color :  rgb(33, 209, 186);
+}
+.SkillsName{
+    margin-left: 30px;
+
+}
+.Skills{
+    margin: 0 0 0 30px ;
+}
+.Skills li{
+    font-size: 1.2rem;
+    margin-left: 50px;
+}
+
+.leftsecab{
+    margin-top: 1px;
+}
+
+.ProjectsContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 40px 0 0 0 ;
+    height: 450px;
+    
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ProjectsContainer .card{
+
+    margin: 20px 20px 20px 20px;
+    height: 12rem;
+    width: 18rem;
+}
+
+.ProjectsContainer .s1{
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectsContainer .s2{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: inline;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+.card img{
+    margin-left: 16%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.card >a{
+    margin-left: 16%;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: rgb(28, 115, 111);
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    height: 0.5rem;
+    width: fit-content;
+    font-weight: 700;
+    color:  rgb(33, 209, 186);
+}
+.card p{
+    color: rgba(0, 0, 0, 0.556);
+    margin-left: 16%;
+}
+
+
+.email, .contact{
+    text-decoration: none;
+    justify-content: center;
+    margin: 20px 20px 20px 20px ;
+    color: rgb(33, 209, 186);
+    border: none;
+    
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    height: 0.5rem;
+    width: fit-content;
+
+}

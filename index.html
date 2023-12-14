@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tejas - Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Tejas Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/Projects.html">Projects</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSec">
+            <div class="leftsec lefab">
+                Hi, My Name is <span class="black">Tejas</span>
+                <div class="prof">
+                and I am a Passionate 
+                <br>
+                <span id="element"></span>  
+                </div>
+                <button class="btn"><a href="https://drive.google.com/file/d/1ZlOUTBXSHQpHmqt9kVmjZo4F_Pn7aKnY/view?usp=drive_link">Download Resume</a></button>
+
+            </div>
+            <div class="rightsec  riab">
+                <img src="MyImage.jpg" alt="Photo">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsec">
+        <span class="black">Connect with me on diffrent platforms</span>
+       
+
+            <div class="box"></div>
+            <div class="media">
+
+                <a href="https://www.linkedin.com/in/tejas-surse-a1b651256/"><img width="30" height="30" src="/icons/linkedin.svg"/></a>
+                <a href="https://github.com/TejasSurse/"><img width="30" height="30" src="/icons/github.svg"/></a>
+                <a href="https://twitter.com/tejas_surse_"><img width="30" height="30" src="/icons/twitter.svg"/></a>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'C++ Programmer', 'DSA',],
+          typeSpeed: 50,
+        });
+      </script>
+    <script src="app.js"></script>
+</body>
+</html>
